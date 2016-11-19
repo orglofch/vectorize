@@ -438,7 +438,7 @@ void InitGeneImage(SimulationState &state, Image *image, int polygons, int verti
 int main(int argc, char **argv) {
 	srand(time(NULL));
 
-	string input_file = "me2.png";
+	string input_file = "girl_with_a_pearl_earring.png";
 
 	SimulationState state;
 
