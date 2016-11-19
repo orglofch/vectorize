@@ -1,0 +1,34 @@
+﻿Build started 11/19/2016 3:33:07 PM.
+     1>Project "C:\Users\Tilt\Documents\Visual Studio 2013\Projects\Vectorize\Vectorize\Vectorize.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\lib\glew-1.11.0\include" /I"C:\lib\glfw-3.1.1\include" /IC:\lib\libpng\include /IC:\lib\zlib\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt vectorize.cpp
+         vectorize.cpp
+     1>vectorize.cpp(130): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>vectorize.cpp(160): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>vectorize.cpp(161): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>vectorize.cpp(317): warning C4244: 'argument' : conversion from 'LONGLONG' to 'unsigned int', possible loss of data
+     1>vectorize.cpp(318): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>vectorize.cpp(319): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>vectorize.cpp(324): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>vectorize.cpp(325): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>vectorize.cpp(330): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>vectorize.cpp(331): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>vectorize.cpp(336): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>vectorize.cpp(337): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>vectorize.cpp(342): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>vectorize.cpp(345): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>vectorize.cpp(350): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>vectorize.cpp(414): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>vectorize.cpp(439): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>vectorize.cpp(509): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Tilt\Documents\Visual Studio 2013\Projects\Vectorize\Release\Vectorize.exe" /NOLOGO /LIBPATH:C:\lib\libpng\lib /LIBPATH:C:\lib\zlib\lib /LIBPATH:"C:\lib\glfw-3.1.1\lib" /LIBPATH:"C:\lib\glew-1.11.0\lib\Release\Win32" opengl32.lib glu32.lib glew32.lib glfw3.lib glfw3dll.lib winmm.lib libpng.lib zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Tilt\Documents\Visual Studio 2013\Projects\Vectorize\Release\Vectorize.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Tilt\Documents\Visual Studio 2013\Projects\Vectorize\Release\Vectorize.lib" /MACHINE:X86 /SAFESEH Release\vectorize.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+         Vectorize.vcxproj -> C:\Users\Tilt\Documents\Visual Studio 2013\Projects\Vectorize\Release\Vectorize.exe
+     1>Done Building Project "C:\Users\Tilt\Documents\Visual Studio 2013\Projects\Vectorize\Vectorize\Vectorize.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.41
