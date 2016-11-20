@@ -24,4 +24,4 @@ Each iteration:
    
 3. Select the more fit of the two images and continue.
 
-![cooling-schedules](https://github.com/orglofch/Vectorize/blob/master/example.png)
+![example](https://github.com/orglofch/Vectorize/blob/master/images/example.png)
